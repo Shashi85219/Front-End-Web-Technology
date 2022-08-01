@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Display in css</title>
+	<style type="text/css">
+
+		/*Display inline*/
+		ul.inline li{
+              display: inline;
+		}
+
+		/*Display block*/ 
+		span.hello{
+			display: block;
+		}
+         
+        /*Display inline-block*/  
+       .inline-block li{
+       	background: green;
+       	color: white;
+
+       	display: inline-block;
+
+       }   
+
+       
+       /*Display none*/
+
+       .none{
+           background: red;
+           color: white; 
+           display: none;
+       }
+
+	</style>
+</head>
+<body>
+
+
+	<ul class="inline">
+		<li> Home</li>
+		<li> About us</li>
+		<li> Blog</li>
+		<li> Project</li>
+	</ul>
+
+	<div style="background: red;">
+		Insider 
+	</div>
+	<div style="background: green;">
+		Academy
+	</div>
+
+	<span class="hello" style="background: blue;">
+		Web 
+	</span>
+	<span style="background: pink;"> Designing</span>
+
+
+ <ul class="inline-block">
+ 	<li> Apple</li>
+ 	<li> Banana</li>
+ 	<li> Grapes</li>
+ 	<li> Pine Apple</li>
+ </ul>
+	
+
+	<p class="none">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</body>
+</html>

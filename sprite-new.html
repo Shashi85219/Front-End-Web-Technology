@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Sprite in CSS</title>
+
+	<style type="text/css">
+
+		a{
+			text-decoration: none;
+		}
+		ul li{
+			background-image: url(mySprite.png);
+			list-style-type: none;
+			background-repeat: no-repeat;
+			line-height: 50px;
+			margin-bottom: 10px;
+		
+
+		}
+		ul li a{
+				margin-left: 60px;
+		}
+       
+       .firefox{
+
+       	    background-position: 0 0;
+       }
+
+         .chrome{
+         	background-position: 0 -100px;
+         }
+         .internet-explorer{
+         	background-position: 0 -200px;
+
+         }
+         .safari{
+         	background-position: 0 -300px;
+         }
+         .opera{
+         	background-position: 0 -400px;
+         }
+
+
+                 /*HOVER*/
+           .firefox:hover{
+
+       	    background-position: 0 -50px;
+       }
+
+         .chrome:hover{
+         	background-position: 0 -150px;
+         }
+         .internet-explorer:hover{
+         	background-position: 0 -250px;
+
+         }
+         .safari:hover{
+         	background-position: 0 -350px;
+         }
+         .opera:hover{
+         	background-position: 0 -450px;
+         }
+	</style>
+</head>
+<body>
+
+
+<ul>
+	<li class="firefox"> <a href="https://www.mozilla.org/en-US/firefox/new/?redirect_source=firefox-com"> Firefox</a></li>
+	<li class="chrome"> <a href="https://www.google.com/chrome/"> Chrome</a></li>
+	<li class="internet-explorer"> <a href="#"> Internet Explorer	</a></li>
+	<li class="safari"> <a href="#"> Safari </a></li>
+	<li class="opera"> <a href="#"> Opera</a></li>
+</ul>
+</body>
+</html>
